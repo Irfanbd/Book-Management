@@ -1,0 +1,15 @@
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\bin\Debug\Personal Library.exe.config
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\bin\Debug\Personal Library.exe
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\bin\Debug\Personal Library.pdb
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library.csprojAssemblyReference.cache
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\MainWindow.g.cs
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\App.g.cs
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library_MarkupCompile.cache
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library_MarkupCompile.lref
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\MainWindow.baml
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library.g.resources
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal_Library.Properties.Resources.resources
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library.csproj.GenerateResource.cache
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library.csproj.CoreCompileInputs.cache
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library.exe
+C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\Personal Library.pdb
