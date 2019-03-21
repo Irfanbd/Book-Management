@@ -23,7 +23,40 @@ namespace Personal_Library
         public MainWindow()
         {
             InitializeComponent();
-            wndMain.Height = System.Windows.SystemParameters.PrimaryScreenHeight;
+            
+        }
+
+        private void login(object sender, RoutedEventArgs e)
+        {
+            Library_Dashboard bw = new Library_Dashboard();
+            if (username.Text == "" && password.Password == "")
+            {
+                bw.Show();
+                this.Close();
+
+            }
+            else
+            {
+                MessageBox.Show("Wrong username or password", "Login");
+                username.Text = "";
+                password.Password = "";
+            }
+            
+        }
+
+        private void exit_btn(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void reset(object sender, RoutedEventArgs e)
+        {
+            clear();
+        }
+        void clear()
+        {
+            username.Clear();
+            password.Clear();
         }
     }
 }

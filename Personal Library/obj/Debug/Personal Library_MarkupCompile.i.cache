@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Hackbook\source\repos\Personal Library\Personal Library\obj\Debug\
+C:\Users\Hackbook\Source\Repos\Book-Management\Personal Library\obj\Debug\
 Personal_Library
 none
 false
 DEBUG;TRACE
-C:\Users\Hackbook\source\repos\Personal Library\Personal Library\App.xaml
-11151548125
+C:\Users\Hackbook\Source\Repos\Book-Management\Personal Library\App.xaml
+2213042426
 
-9-2029372987
+10-1132320784
 14434534373
-MainWindow.xaml;
+Library Dashboard.xaml;MainWindow.xaml;
 
-True
+False
 

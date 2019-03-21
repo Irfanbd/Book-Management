@@ -5,11 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Personal_Library"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Left="0" Top="0" Name="wndMain">
+        Title="MainWindow" Height="500" Width="324.378" Left="0" Top="0" WindowStyle="ThreeDBorderWindow"  >
+
     <Window.Background>
-        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/architecture-background-blank-158771.jpg"/>
+        <ImageBrush ImageSource="Resources/blur-bricks-brickwall-1089280.jpg"/>
     </Window.Background>
-    <Grid>
-        
-    </Grid>
+    <Border CornerRadius="10">
+        <Grid>
+            <Label Content="Personal Library Management" HorizontalAlignment="Left" Margin="-190,194,0,0" VerticalAlignment="Top" Width="424" Foreground="White" Height="46" FontFamily="Segoe Script" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-9.462"/>
+                        <RotateTransform Angle="-89.028"/>
+                        <TranslateTransform X="3.833"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Grid HorizontalAlignment="Left" Height="375" Margin="56,46,0,0" VerticalAlignment="Top" Width="226">
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="#FF3B6406" Offset="1"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Label Content="User Info" HorizontalAlignment="Left" Margin="65,72,0,0" VerticalAlignment="Top" Width="123" FontFamily="Segoe Script" FontSize="16" FontWeight="Bold" Foreground="#FFF6F6F6" RenderTransformOrigin="0.853,0.543"/>
+                <TextBox x:Name="username" HorizontalAlignment="Left" Height="34" Margin="20,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Foreground="White" FontSize="14">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="Resources/blur-bricks-brickwall-1089280.jpg"/>
+                    </TextBox.Background>
+                </TextBox>
+                <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="20,231,0,0" VerticalAlignment="Top" Width="180" Height="37" Foreground="White" FontSize="14">
+                    <PasswordBox.Background>
+                        <ImageBrush ImageSource="Resources/blur-bricks-brickwall-1089280.jpg"/>
+                    </PasswordBox.Background>
+                </PasswordBox>
+                <Button Content="login" HorizontalAlignment="Left" Margin="20,323,0,0" VerticalAlignment="Top" Width="59" Height="31" FontSize="14" FontWeight="Bold" Foreground="White" FontFamily="Segoe Script" Click="login">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="#FF3D6101" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Content="Reset" HorizontalAlignment="Left" Margin="84,323,0,0" VerticalAlignment="Top" Width="57" Height="31" FontSize="14" FontWeight="Bold" Foreground="White" FontFamily="Segoe Script" Click="reset">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="#FF3D6101" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Content="Exit" HorizontalAlignment="Left" Margin="146,323,0,0" VerticalAlignment="Top" Width="54" Height="31" FontSize="14" FontWeight="Bold" Foreground="White" FontFamily="Segoe Script" Click="exit_btn">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="#FF3D6101" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+
+        </Grid>
+    </Border>
 </Window>
