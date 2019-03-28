@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Personal_Library"
         mc:Ignorable="d"
-        Title="Library Dashboard" Height="450" Width="800">
+        Title="Library Dashboard" Height="644.8" Width="800">
     <Grid>
-        
+        <Label Content="Personal Library Management System" HorizontalAlignment="Left" Margin="-157,221,0,0" VerticalAlignment="Top" Width="496" FontSize="36" FontWeight="Bold" FontFamily="Pristina" RenderTransformOrigin="0.433,0.995" Height="59">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-11.321"/>
+                    <RotateTransform Angle="-89.855"/>
+                    <TranslateTransform X="0.07"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Book No / ID" HorizontalAlignment="Left" Margin="65,26,0,0" VerticalAlignment="Top" Width="247" FontSize="20" FontWeight="Bold" FontFamily="Century" Height="39"/>
+        <Label Content="Book Name" HorizontalAlignment="Left" Margin="65,83,0,0" VerticalAlignment="Top" Width="247" FontSize="20" FontWeight="Bold" FontFamily="Century" Height="39" RenderTransformOrigin="0.492,0.864"/>
+        <Label Content="Author Name" HorizontalAlignment="Left" Margin="65,153,0,0" VerticalAlignment="Top" Width="247" FontSize="20" FontWeight="Bold" FontFamily="Century" Height="39"/>
+        <Label Content="Book Genre" HorizontalAlignment="Left" Margin="65,209,0,0" VerticalAlignment="Top" Width="247" FontSize="20" FontWeight="Bold" FontFamily="Century" Height="39"/>
+        <Label Content="Language" HorizontalAlignment="Left" Margin="65,265,0,0" VerticalAlignment="Top" Width="247" FontSize="20" FontWeight="Bold" FontFamily="Century" Height="39"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="337,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="415" FontSize="18" FontFamily="Century" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="337,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="415"  FontSize="18" FontFamily="Century" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="337,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="415"  FontSize="18" FontFamily="Century" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="337,209,0,0" VerticalAlignment="Top" Width="144" Height="39"/>
+        <CheckBox Content="Bangla" HorizontalAlignment="Left" Margin="337,265,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.039,-1.25" Height="39" Width="119" FontSize="18"/>
+        <CheckBox Content="English" HorizontalAlignment="Left" Margin="501,265,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.039,-1.25" Height="39" Width="119" FontSize="18"/>
+
     </Grid>
 </Window>
